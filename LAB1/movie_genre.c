@@ -1,6 +1,8 @@
+/*Problem:-
+---You are asked to conduct a survey at a movie theatre to find the most watched movie genre.Write a C program to store the collected data using structures.The program should contain a function that allows users to input their names,movie watched and genre of the movie.Use this collected data to find out the most watched movie genre and print it. If there are multiple such movie genres,then print all of them.
+*/
 
-
-#include <stdio.h> 
+#include <stdio.h>
 #include <string.h>
 
 #define MAX_PEOPLE 100
