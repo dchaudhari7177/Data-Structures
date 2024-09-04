@@ -132,3 +132,9 @@ void destroyList(node** head) {
     }
     *head = NULL;
 }
+
+
+
+
+
+
