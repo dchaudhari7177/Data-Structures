@@ -63,6 +63,7 @@ void infixToPostfix(char s[]) {
     printf("%s\n", result);
 }
 
+
 int main() {
     char exp[] = "a+b*(c^d-e)^(f+g*h)-i";
 
