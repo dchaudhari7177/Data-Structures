@@ -74,6 +74,7 @@ void pinchat(chat** headp, chat** head, chat* chatToPin) {
 
     if (*headp != NULL) {
         (*headp)->prev = chatToPin;
+
     }
     *headp = chatToPin;
     printf("Chat with %s pinned.\n", chatToPin->name);
